@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace HackerRank.Algorithms.Warmup
 {
     /// <summary>
-    /// 
+    /// Algorithms -> Warmup -> Service Lane
     /// </summary>
     /// <see href="https://www.hackerrank.com/challenges/service-lane"/>
     public class ServiceLane

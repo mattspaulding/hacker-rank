@@ -41,10 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Strings\Pangrams.cs" />
     <Compile Include="Algorithms\Strings\HammingDistance.cs" />
     <Compile Include="Algorithms\Strings\FunnyString.cs" />
     <Compile Include="Algorithms\Warmup\AVeryBigSum.cs" />
     <Compile Include="Algorithms\Warmup\MaximizingXor.cs" />
+    <Compile Include="Algorithms\Warmup\SimpleArraySum.cs" />
     <Compile Include="Algorithms\Warmup\ServiceLane.cs" />
     <Compile Include="Algorithms\Warmup\UtopianTree.cs" />
     <Compile Include="Algorithms\Warmup\SolveMeFirst.cs" />

@@ -50,9 +50,11 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Algorithms\Strings\PangramsTests.cs" />
     <Compile Include="Algorithms\Strings\HammingDistanceTests.cs" />
     <Compile Include="Algorithms\Strings\FunnyStringTests.cs" />
     <Compile Include="Algorithms\Warmup\AVeryBigSumTests.cs" />
+    <Compile Include="Algorithms\Warmup\SimpleArraySumTests.cs" />
     <Compile Include="Algorithms\Warmup\ServiceLaneTests.cs" />
     <Compile Include="Algorithms\Warmup\MaximizingXorTests.cs" />
     <Compile Include="Algorithms\Warmup\UtopianTreeTests.cs" />
@@ -74,10 +76,28 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TestFiles\PangramsTest01Input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestFiles\PangramsTest01Output.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestFiles\PangramsTest00Output.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestFiles\PangramsTest00Input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="TestFiles\MaximizingXorTest00Input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="TestFiles\AVeryBigSumTest00Output.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestFiles\SimpleArraySumTest00Output.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestFiles\SimpleArraySumTest00Input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="TestFiles\TwistyTupleTest01Input.txt">
